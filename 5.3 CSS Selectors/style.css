@@ -1,0 +1,32 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+
+/* all paragraph tags to red */
+p {
+  color: red;
+}
+
+/* all classes with value note */
+.note {
+  font-size: 20px;
+}
+/* Set the CSS for the element with an id of "id-selector-demo" to "color: green" */
+#id-selector-demo {
+  color: green;
+}
+
+/* li elements that have the "value" attribute set to "4" to have "color: blue */
+li[value="4"]{
+  color: blue;
+}
+
+/* elements to have "text-align: center */
+
+* {
+  text-align: center;
+}
